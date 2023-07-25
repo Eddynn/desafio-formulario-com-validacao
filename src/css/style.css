@@ -1,0 +1,115 @@
+body {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: 1920px 1094px;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 70px;
+    margin: auto;
+}
+
+.text {
+    flex-direction: column;
+    width: 300px;
+    color: #fff;
+}
+
+.text h1 {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    }
+
+.text h2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 20px;
+    width: 340px;
+    height: 378px;
+    gap: 10px;
+}
+
+.formulario .formu {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 300px;
+    border: 1.5px solid #000;
+    outline: 0;
+    font-style: normal;
+    align-items: center;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.formulario .botao {
+    text-align: center;
+    color: #fff;
+    word-wrap: break-word;
+    background-color: #14AE5C;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    border-style: none;
+    font-weight: 700;
+}
+
+.requeridos {
+    font-size: 14px;
+    color: red;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+    opacity: 0;
+}
+
+.formulario .important {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+}
+
+/* FUNÇÕES PARA O JS */
+
+.formulario .borda-verde {
+    border: 1px solid #14AE5C;
+}
+
+.formulario .borda-vermelha {
+    border: 1px solid red;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a8a7a7;
+}
+
+.formulario .mensagem {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: 0;
+}
+
+.mostrar {
+    opacity: 1;
+}
+

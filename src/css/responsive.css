@@ -1,0 +1,8 @@
+@media (max-width: 766px){
+    main {
+        margin: 20px; 
+        padding: 20px;
+        display: grid;
+        gap: 5px;
+    }
+}
